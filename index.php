@@ -4,7 +4,12 @@
 <?php
 $metaTitle = 'Sign up to iHub';
 require_once __DIR__ . '/components/head.php';
+require_once __DIR__ . '/components/menu.php';
+menu();
 ?>
+
+
+
 
 
 <section class="auth-form">
