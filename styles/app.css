@@ -1,0 +1,21 @@
+@import './authForm.css';
+@import './menu.css';
+
+:root {
+    --light-purple: #c3dafe;
+    --purple: #667eea;
+    --light-blue: rgba(235, 244, 255, 0.7);
+    --light-green: #c3dafe;
+    --green: #2f855a;
+    --red: #f56565;
+    --gray-dark: #555555;
+    --gray-light: #777777;
+    --menu-overlay: rgba(75, 74, 52, 0.7);
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    color: var(--gray-dark);
+    font-family: Open sans;
+}
