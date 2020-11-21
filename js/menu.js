@@ -8,9 +8,13 @@ function toggleMenu() {
     menuOverlay.classList.toggle('hidden');
 }
 
-burgerMenu.addEventListener('click', toggleMenu);
-closeMenu.addEventListener('click', toggleMenu);
-menuOverlay.addEventListener('click', toggleMenu);
+// bind toggleMenu
+[burgerMenu, closeMenu, menuOverlay].forEach((element) =>
+    element.addEventListener('click', toggleMenu)
+);
+
+// prevent event bubbling from menu container
 menu.addEventListener('click', (e) => e.stopPropagation());
 
+// give the browser go back functionality to the back arrow button
 if (backArrow) backArrow.addEventListener('click', () => history.back());
