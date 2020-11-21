@@ -1,3 +1,4 @@
+@import './utilities.css';
 @import './authForm.css';
 @import './menu.css';
 
@@ -14,8 +15,23 @@
 }
 
 * {
+    width: 10;
     margin: 0px;
     box-sizing: border-box;
     color: var(--gray-dark);
     font-family: Open sans;
+}
+
+button {
+    border: 0px;
+    background: white;
+    cursor: pointer;
+}
+button:focus,
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
 }
