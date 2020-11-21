@@ -13,7 +13,7 @@
     </head>
     <body>
         <section class="auth-form">
-            <h1>Sign up</h1>
+            <h1>SDFHDHGFHFGH</h1>
             <form>
                 <input type="text" placeholder="Email" />
                 <input type="password" placeholder="Password" />
