@@ -1,3 +1,4 @@
+@import './utilities.css';
 @import './authForm.css';
 @import './menu.css';
 @import './landing-page.css';
@@ -16,6 +17,7 @@
 }
 
 * {
+    width: 10;
     margin: 0px;
     box-sizing: border-box;
     color: var(--gray-dark);
@@ -24,5 +26,19 @@
 
 body {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+  
+button {
+    border: 0px;
+    background: white;
+    cursor: pointer;
+}
+  
+button:focus,
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
 }
