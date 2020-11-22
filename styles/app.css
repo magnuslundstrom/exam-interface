@@ -1,5 +1,7 @@
 @import './authForm.css';
 @import './menu.css';
+@import './landing-page.css';
+@import './hashtag-group-person.css';
 
 :root {
     --light-purple: #c3dafe;
@@ -18,4 +20,9 @@
     box-sizing: border-box;
     color: var(--gray-dark);
     font-family: Open sans;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
 }
