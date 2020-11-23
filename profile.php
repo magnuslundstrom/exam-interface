@@ -25,13 +25,13 @@ menu(true);
 
         <article class="profile-detail">
             <p>your_username_123</p>
-            <input type="text" value="Your name" class="hidden">
+            <input type="text" value="your_username_123" class="hidden">
             <button class="profile-edit"><i class="fas fa-pen"></i></button>
         </article>
 
         <article class="profile-detail">
             <p>youremail@gmail.com</p>
-            <input type="text" value="Your name" class="hidden">
+            <input type="text" value="youremail@gmail.com" class="hidden">
             <button class="profile-edit"><i class="fas fa-pen"></i></button>
         </article>
 

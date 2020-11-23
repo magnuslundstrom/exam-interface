@@ -25,16 +25,17 @@ if (document.querySelector('.profile')) {
             }
             passwordToggle = !passwordToggle;
         };
-        togglePassword();
 
-        profileHtml
-            .querySelector('.display-password')
-            .addEventListener('click', togglePassword);
-
+        // helper function to toggle hidden class on p and input
         const toggleView = (p, input) => {
             p.classList.toggle('hidden');
             input.classList.toggle('hidden');
         };
+
+        // bind event listener to toggle password btn
+        profileHtml
+            .querySelector('.display-password')
+            .addEventListener('click', togglePassword);
 
         // loop over each target and setup listeners for btns and inputs
         profileDetailsList.forEach((element) => {
@@ -44,7 +45,7 @@ if (document.querySelector('.profile')) {
             const input = element.querySelector('input');
 
             // bind listener to edit button
-            editBtn.addEventListener('click', (e) => {
+            editBtn.addEventListener('click', () => {
                 toggleView(p, input);
             });
 
@@ -59,5 +60,7 @@ if (document.querySelector('.profile')) {
                 p.textContent = e.target.value;
             });
         });
+
+        togglePassword();
     })();
 }
