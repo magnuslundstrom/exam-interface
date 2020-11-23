@@ -12,14 +12,39 @@ menu();
 
 
 <main class="index-main">
-<section class="auth-form">
-    <h1>Adam's branch</h1>
-    <form>
-        <input type="text" placeholder="Email" />
-        <input type="password" placeholder="Password" />
-        <button>Sign up</button>
-    </form>
-    <div>Already have an account? <a href="login.html">Log in!</a></div>
-</section>
+    <section id="signup-box">
+        <section class="signup-login-box">
+            <section class="auth-form">
+                <h1>Signup</h1>
+                <form onsubmit="validate(); return false;">
+                    <input name="email" type="text" placeholder="Email" value="" data-type="email">
+                    <input name="password" type="password" placeholder="Password" value="" data-type="string" data-min="2" data-max="20">
+                    <button class="signup-button">Sign up</button>
+                </form>
+                
+            </section>
+        </section>
+        <section class="switch-box">
+                <div>Already have an account? <button class="switch-button" onclick="showLogin();return false;">Login!</button></div>
+        </section>
+    </section>
+    <section id="login-box" class="hidden">
+        <section class="signup-login-box">
+            <section class="auth-form">
+                <h1>Login</h1>
+                <form onsubmit="validate(); return false;">
+                    <input name="email" type="text" placeholder="Email" value="" data-type="email">
+                    <input name="password" type="password" placeholder="Password" value="" data-type="string" data-min="2" data-max="20">
+                    <button class="signup-button">Sign up</button>
+                    <a href="#">Forgot password?</a>
+                </form>
+                
+            </section>
+        </section>
+        <section class="switch-box">
+                <div>Dont have an account yet? <a id="myLink" href="#" onclick="switchFunction(showSignup);return false;">Signup!</a></div>
+        </section>
+    </section>
 </main>
+<script src="/js/login.js"></script>
 <?php require_once __DIR__ . '/components/footer.php';?>
