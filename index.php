@@ -11,7 +11,7 @@ menu();
 
 
 
-
+<main class="index-main">
 <section class="auth-form">
     <h1>Adam's branch</h1>
     <form>
@@ -21,5 +21,5 @@ menu();
     </form>
     <div>Already have an account? <a href="login.html">Log in!</a></div>
 </section>
-
+</main>
 <?php require_once __DIR__ . '/components/footer.php';?>
