@@ -10,6 +10,7 @@ header,
 
 header {
     justify-content: space-between;
+    z-index: 100;
 }
 
 header .menu-overlay {
@@ -19,6 +20,7 @@ header .menu-overlay {
     position: fixed;
     top: 0px;
     left: 0px;
+    z-index: 100;
 }
 
 header .menu {
