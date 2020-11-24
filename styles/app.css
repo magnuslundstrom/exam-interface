@@ -3,6 +3,7 @@
 @import './menu.css';
 @import './landing-page.css';
 @import './hashtag-group-person.css';
+@import './explore.css';
 
 :root {
     --light-purple: #c3dafe;
@@ -17,7 +18,6 @@
 }
 
 * {
-    width: 10;
     margin: 0px;
     box-sizing: border-box;
     color: var(--gray-dark);
@@ -27,13 +27,14 @@
 body {
     width: 100%;
     min-height: 100vh;
-  
+}
+
 button {
     border: 0px;
     background: white;
     cursor: pointer;
 }
-  
+
 button:focus,
 input:focus {
     outline: none;
