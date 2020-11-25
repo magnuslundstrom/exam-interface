@@ -14,38 +14,43 @@ menu(true, true, false);
     <section>
         <h2>Suggested hashtags</h2>
         <?php
+
             hashtagGroupPerson(true, false, false, [
                 ['name'=>'fashionweek', 'members'=>'103.213', 'img'=>'https://pbs.twimg.com/profile_images/1301935188684025856/81FCoiJ2_400x400.jpg'],
                 ['name'=>'streetfashion', 'members'=>'68.074', 'img'=>'https://pbs.twimg.com/profile_images/1278121753554964480/e_Fcl_4q_400x400.jpg'],
                 ['name'=>'style', 'members'=>'293.951', 'img'=>'https://pbs.twimg.com/profile_images/1088438336488947712/Tvqi6h0A_400x400.jpg']
             ])
         ?>
+
     </section>
 
     <section class="landing-messages">
         <h2>New messages</h2>
         <div>
             <a href="chat.php">
-                <img src="https://pbs.twimg.com/profile_images/1080545769034108928/CEzHCTpI_400x400.jpg" alt="image of @catLover999">
+                <img src="https://pbs.twimg.com/profile_images/1080545769034108928/CEzHCTpI_400x400.jpg"
+                    alt="image of @catLover999">
                 <div>
                     <p>@catLover999</p>
                     <p>So I got this new cat</p>
                 </div>
             </a>
             <a href="chat.php">
-                <img src="https://pbs.twimg.com/profile_images/1313275994086666241/ImnByxjW_400x400.jpg" alt="image of @staartingsoon">
+                <img src="https://pbs.twimg.com/profile_images/1313275994086666241/ImnByxjW_400x400.jpg"
+                    alt="image of @staartingsoon">
                 <div>
                     <p>@staartingsoon</p>
                     <p>How are you long time no s...</p>
                 </div>
             </a>
             <a href="chat.php">
-                <img src="https://pbs.twimg.com/profile_images/1027113206605643776/YOZiaA9u_400x400.jpg" alt="image of @FashionNova:">
+                <img src="https://pbs.twimg.com/profile_images/1027113206605643776/YOZiaA9u_400x400.jpg"
+                    alt="image of @FashionNova:">
                 <div>
                     <p>@FashionNova</p>
                     <p>OMG *Queen*!!👑👏</p>
                 </div>
-            </a">
+                </a">
         </div>
         <a class="landing-btn" href="message.php">See all<i class="fas fa-angle-right"></i></a>
     </section>
