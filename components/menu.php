@@ -28,7 +28,7 @@ if ($logo) {?>
     <button class="back-arrow"><i class="fas fa-arrow-left"></i></button>
     <?php }
     if ($loggedIn && $searchBar) {?>
-    <input type="text" placeholder="Search iHub">
+    <input type="text" placeholder="Search iHub" id="menu-search-bar">
     <?php }?>
     <div>
         <?php if ($loggedIn && !$searchBar) {?>
