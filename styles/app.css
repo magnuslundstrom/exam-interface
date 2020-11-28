@@ -5,7 +5,7 @@
 @import './hashtag-group-person.css';
 @import './explore.css';
 @import './profile.css';
-
+@import './instagramModal.css';
 
 :root {
     --light-purple: #c3dafe;
