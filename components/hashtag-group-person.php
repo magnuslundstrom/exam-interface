@@ -1,5 +1,5 @@
 <?php
-function hashtagGroupPerson($hashtag, $group, $paid, $arrayData){
+function hashtagGroupPerson($hashtag, $group, $arrayData){
     foreach($arrayData as $arrayData){
     ?>
     <div class="hashtag-group-person">
@@ -37,32 +37,22 @@ function hashtagGroupPerson($hashtag, $group, $paid, $arrayData){
             <?php
             if($hashtag){
                 ?>
-                    <div class="btn-div">
+                    <div>
                         <button>Automate</button>
                     </div>
                 </div>
                 <?php
-            }else if($group && $paid){
-                ?>
-                    <div class="btn-div">
-                        <button>Join</button>
-                        <p>Paid</p>
+            }else if($group){
+                    ?>
+                        <div>
+                            <button>Join</button>
+                        </div>
                     </div>
-                </div>
-                <?php
-            
-            }else if($group && !$paid){
-                ?>
-                    <div class="btn-div">
-                        <button>Join</button>
-                        <p class="paid-group">Free</p>
-                    </div>
-                </div>
-                <?php
+                    <?php
             }else{
                 ?>
-                </div>
-                <?php
+            </div>
+            <?php
             }
     }
 }

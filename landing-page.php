@@ -5,23 +5,19 @@
 require_once __DIR__ . '/components/head.php';
 require_once __DIR__ . '/components/hashtag-group-person.php';
 require_once __DIR__ . '/components/menu.php';
-menu(true, true, false);
+menu(true);
 ?>
-
-
 
 <main class="landing-main">
     <section>
         <h2>Suggested hashtags</h2>
         <?php
-
-            hashtagGroupPerson(true, false, false, [
-                ['name'=>'fashionweek', 'members'=>'103.213', 'img'=>'https://pbs.twimg.com/profile_images/1301935188684025856/81FCoiJ2_400x400.jpg'],
-                ['name'=>'streetfashion', 'members'=>'68.074', 'img'=>'https://pbs.twimg.com/profile_images/1278121753554964480/e_Fcl_4q_400x400.jpg'],
-                ['name'=>'style', 'members'=>'293.951', 'img'=>'https://pbs.twimg.com/profile_images/1088438336488947712/Tvqi6h0A_400x400.jpg']
-            ])
-        ?>
-
+hashtagGroupPerson(true, false, [
+    ['name' => 'group', 'members' => '103.213', 'img' => 'https://pbs.twimg.com/profile_images/1301935188684025856/81FCoiJ2_400x400.jpg'],
+    ['name' => 'streetfashion', 'members' => '68.074', 'img' => 'https://pbs.twimg.com/profile_images/1278121753554964480/e_Fcl_4q_400x400.jpg'],
+    ['name' => 'style', 'members' => '293.951', 'img' => 'https://pbs.twimg.com/profile_images/1088438336488947712/Tvqi6h0A_400x400.jpg'],
+])
+?>
     </section>
 
     <section class="landing-messages">

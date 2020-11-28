@@ -41,32 +41,15 @@
     z-index: 2;
 }
 
-.hashtag-group-person p {
-    font-size: 0.8rem;
-}
-
 .hashtag-group-person p:first-child {
     color: var(--purple);
     font-weight: 700;
     font-size: 1rem;
 }
 
-.hashtag-group-person .paid-group {
-    font-weight: 700;
-    float: right;
-}
-
 .hashtag-group-person span,
 .hashtag-group-person > article i {
-    font-size: 0.8rem;
-}
-
-.hashtag-group-person .btn-div {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-left: auto;
-    text-align: right;
+    font-size: 0.9rem;
 }
 
 .hashtag-group-person button {
@@ -75,4 +58,5 @@
     color: white;
     border-radius: 5px;
     padding: 0.3rem 1rem;
+    margin-left: auto;
 }
