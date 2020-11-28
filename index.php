@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <?php
 $metaTitle = 'Sign up to iHub';
 require_once __DIR__ . '/components/head.php';
