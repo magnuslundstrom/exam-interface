@@ -8,6 +8,8 @@
 @import './instagramModal.css';
 @import './subscriptions.css';
 @import './liked-today.css';
+@import './liked-overview.css';
+@import './privacy-policy.css';
 
 :root {
     --light-purple: #c3dafe;
