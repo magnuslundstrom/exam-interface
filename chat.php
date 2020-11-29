@@ -50,7 +50,7 @@ menu(true, true);
                 <p class="chat-date-message sent">Sent 26-10-2020</p>
             </div>
         </div>
-        <form>
+        <form class="appear-transition">
             <button><i class="far fa-image"></i></button>
             <input type="text" placeholder="Type...">
             <button><i class="fas fa-paper-plane"></i></button>
