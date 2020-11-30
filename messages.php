@@ -25,17 +25,17 @@ $messages = [
 
 ?>
 
-<div class="" id="messages">
+<main class="" id="messages">
     <h1>Messages</h1>
 
-    <div class="messages-list">
+    <section class="messages-list">
         <?php foreach ($messages as $message) {
     messageBox(...$message);
 }?>
-    </div>
+    </section>
 
 
 
-</div>
+</main>
 
 <?php require_once __DIR__ . '/components/footer.php'?>

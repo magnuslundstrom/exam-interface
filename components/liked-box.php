@@ -2,7 +2,7 @@
 
 function likedBox($imgsrc, $link, $user, $time)
 {?>
-<div class="liked-box">
+<article class="liked-box">
     <div class="liked-box-left">
         <img src="<?=$imgsrc?>">
         <div>
@@ -12,5 +12,5 @@ function likedBox($imgsrc, $link, $user, $time)
         </div>
     </div>
     <input type="checkbox" class="liked-box-check">
-</div>
+</article>
 <?php }?>

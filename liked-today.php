@@ -14,19 +14,19 @@ $likes = [
 ]
 ?>
 
-<div class="container" id="liked-posts">
+<main class="container" id="liked-posts">
     <h1>Posts liked today</h1>
-    <div class="liked-today-boxes-wrapper">
+    <section class="liked-today-boxes-wrapper">
         <?php
 foreach ($likes as $like) {
     likedBox(...$like);
 }
 ?>
-    </div>
+    </section>
     <div class="liked-today-unlike-wrapper">
         <button id="unlike-selected-btn">Unlike Selected</button>
     </div>
 
-</div>
+</main>
 
 <?php require_once __DIR__ . '/components/footer.php'?>

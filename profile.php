@@ -5,7 +5,7 @@ require_once __DIR__ . '/components/menu.php';
 menu(true);
 ?>
 
-<div class="profile">
+<main class="profile">
     <section class="profile-image-wrapper">
         <article class="profile-image-box">
             <img
@@ -53,5 +53,5 @@ menu(true);
         <a href="/subscriptions.php">Subscriptions</a>
         <a href="/automations.php">Automations</a>
     </section>
-</div>
+</main>
 <?php require_once __DIR__ . '/components/footer.php'?>

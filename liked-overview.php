@@ -7,9 +7,9 @@ menu(true, false);
 
 ?>
 
-<div class="container" id="liked-overview">
+<main class="container" id="liked-overview">
     <h2>Posts liked today</h2>
-    <div class="liked-overview-box">
+    <article class="liked-overview-box">
         <div class="liked-overview-box-details">
             <p>#girlstyles</p>
             <p>Total likes: 22</p>
@@ -19,9 +19,9 @@ menu(true, false);
                 See all <i class="fas fa-angle-right"></i>
             </a>
         </div>
-    </div>
+    </article>
     <h2>Posts liked yesterday</h2>
-    <div class="liked-overview-box">
+    <article class="liked-overview-box">
         <div class="liked-overview-box-details">
             <p>#girlstyles</p>
             <p>Total likes: 183</p>
@@ -31,9 +31,9 @@ menu(true, false);
                 See all <i class="fas fa-angle-right"></i>
             </a>
         </div>
-    </div>
+    </article>
     <h2>Posts liked today</h2>
-    <div class="liked-overview-box">
+    <article class="liked-overview-box">
         <div class="liked-overview-box-details">
             <p>#girlstyles</p>
             <p>Total likes: 1833</p>
@@ -43,10 +43,10 @@ menu(true, false);
                 See all <i class="fas fa-angle-right"></i>
             </a>
         </div>
-    </div>
+    </article>
 
 
 
-</div>
+</main>
 
 <?php require_once __DIR__ . '/components/footer.php'?>
