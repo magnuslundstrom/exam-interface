@@ -2,7 +2,7 @@
 
 function messageBox($imgsrc, $groupName, $latestMessage, $date)
 {?>
-<div class="messages-box">
+<article class="messages-box">
     <div class="message-box-left">
         <img src="<?=$imgsrc?>">
         <div class="message-box-left-right">
@@ -11,6 +11,6 @@ function messageBox($imgsrc, $groupName, $latestMessage, $date)
         </div>
     </div>
     <p><?=$date?></p>
-</div>
-</div>
+    </div>
+</article>
 <?php }?>

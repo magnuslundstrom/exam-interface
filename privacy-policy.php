@@ -7,7 +7,7 @@ menu(true, false);
 
 ?>
 
-<div class="container" id="privacy-policy">
+<main class="container" id="privacy-policy">
     <h1>Privacy policy</h1>
 
     <p>
@@ -27,6 +27,6 @@ menu(true, false);
         accident, sometimes on purpose (injected humour and the like).
     </p>
 
-</div>
+</main>
 
 <?php require_once __DIR__ . '/components/footer.php'?>
