@@ -12,6 +12,7 @@
 @import './privacy-policy.css';
 @import './messages.css';
 @import './chat.css';
+@import './login-page.css';
 
 :root {
     --light-purple: #c3dafe;
