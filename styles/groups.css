@@ -1,0 +1,7 @@
+.leave-btn-div {
+    background: var(--red)!important;
+}
+
+.leave-btn-div button {
+    background: var(--red);
+}

@@ -5,7 +5,7 @@
 $metaTitle = 'Sign up to iHub';
 require_once __DIR__ . '/components/head.php';
 require_once __DIR__ . '/components/menu.php';
-menu();
+menu(false, true, false);
 ?>
 
 
