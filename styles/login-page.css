@@ -7,6 +7,7 @@
     padding: 3%;
     text-align: center;
 }
+<<<<<<< HEAD
 
 .switch-button {
     color: blue;
@@ -14,6 +15,11 @@
     font-family: 'Open Sans', sans-serif!important;
     font-size: 1em;
     margin-left: -2px;
+=======
+.switch-box a {
+    color: blue;
+    text-decoration: underline;
+>>>>>>> login-page
 }
 .auth-form {
     margin: 2% 10%;
@@ -62,4 +68,8 @@ input {
     color: white;
     margin-top: 10%;
     font-weight: 700;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> login-page
