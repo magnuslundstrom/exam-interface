@@ -15,6 +15,7 @@
 @import './chat.css';
 @import './login-page.css';
 @import './groups.css';
+@import './group.css';
 @import './automation.css';
 
 :root {
