@@ -10,7 +10,7 @@ menu(true, true, false);
     alt="Image of Girls in black">
     <h2>Girls in Black</h2>
     <p class="free">Free</p>
-    <i class="fas fa-user"></i><span>7.501</span>
+    <a href="group-members.php"><i class="fas fa-user"></i><span>7.501</span></a>
     <p class="description">the black movement is all about making beautiful clothes with black colors‍</p>
     <p class="pinpoints">‍👉 Only for nice people</p>
     <p class="pinpoints">‍👉 Free for girls</p>
@@ -24,11 +24,11 @@ menu(true, true, false);
 </main>
 <script>
     const joinBox = document.getElementById('join');
-const pendingBox = document.getElementById('pending');
+    const pendingBox = document.getElementById('pending');
 
-function toggleJoin() {
+    function toggleJoin() {
     joinBox.classList.toggle('hidden');
     pendingBox.classList.toggle('hidden');
-}
+};
 </script>
 <?php require_once __DIR__ . '/components/footer.php';?>
