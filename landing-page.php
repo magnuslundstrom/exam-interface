@@ -49,25 +49,25 @@ hashtagGroupPerson(true, false, false, [
                 </div>
                 </a">
         </div>
-        <a class="landing-btn" href="message.php">See all<i class="fas fa-angle-right"></i></a>
+        <a class="landing-btn" href="messages.php">See all<i class="fas fa-angle-right"></i></a>
     </section>
 
     <section class="landing-messages">
         <h2>Automation status</h2>
         <div>
-            <a href="automations.php">
+            <a href="automation.php">
                 <div>
                     <p>All new posts in #cats were successfully liked</p>
                     <p>Likes: 22</p>
                 </div>
             </a>
-            <a href="automations.php">
+            <a href="automation.php">
                 <div>
                     <p>Encountered an error when liking #monkaS.</p>
                     <p>Trying again in 19 minutes</p>
                 </div>
             </a>
-            <a href="automations.php">
+            <a href="automation.php">
                 <div>
                     <p>All new posts in #cats were successfully liked</p>
                     <p>Likes: 31</p>
