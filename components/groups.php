@@ -38,8 +38,8 @@ if ($hashtag || $group) {
     <?php
 if ($hashtag) {
             ?>
-    <div class="btn-div">
-        <button>Automate</button>
+    <div class="leave-btn-div btn-div">
+        <button>Cancel</button>
     </div>
 </div>
 <?php
