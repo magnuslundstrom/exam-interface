@@ -5,25 +5,25 @@
 function menu($loggedIn = false, $logo = true, $searchBar = false)
 {
     $routes = !$loggedIn ?
-    [['name' => 'Log in', 'url' => 'log-in.php'],
+    [['name' => 'Log in', 'url' => 'index.php'],
         ['name' => 'Sign up', 'url' => 'index.php'],
         ['name' => 'Privacy', 'url' => 'privacy.php'],
         ['name' => 'Legal', 'url' => 'legal.php']] :
     [
-        ['name' => '<i class="fas fa-home"></i> Home', 'url' => 'home.php'],
+        ['name' => '<i class="fas fa-home"></i> Home', 'url' => 'landing-page.php'],
         ['name' => '<i class="fas fa-search"></i> Explore', 'url' => 'explore.php'],
         ['name' => '<i class="fas fa-user-circle"></i> Profile', 'url' => 'profile.php'],
         ['name' => '<i class="fas fa-comments"></i> Messages', 'url' => 'messages.php'],
         ['name' => '<i class="fas fa-user-friends"></i> Groups', 'url' => 'groups.php'],
         ['name' => '<i class="fas fa-recycle"></i> Automation', 'url' => 'automation.php'],
         ['name' => '<i class="fas fa-dollar-sign"></i> Subscription', 'url' => 'subscription.php'],
-        ['name' => '<i class="fas fa-sign-out-alt"></i> Log out', 'url' => 'log-in.php'],
+        ['name' => '<i class="fas fa-sign-out-alt"></i> Log out', 'url' => 'index.php'],
     ];?>
 
 <header>
     <?php
 if ($logo) {?>
-    <a href="<?=$loggedIn ? '/home.php' : '/'?>" class="logo">iHub</a>
+    <a href="<?=$loggedIn ? '/landing-page.php' : '/'?>" class="logo">iHub</a>
     <?php } else {?>
     <button class="back-arrow"><i class="fas fa-arrow-left"></i></button>
     <?php }
