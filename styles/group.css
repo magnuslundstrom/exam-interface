@@ -39,7 +39,7 @@ h2 {
     font-size: 1.5em;
     background-color: var(--green);
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .pending-button {
     margin-top: 5%;
@@ -48,7 +48,7 @@ h2 {
     font-size: 1.5em;
     background-color: var(--light-purple);
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .pending-link {
     color: var(--purple);
