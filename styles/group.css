@@ -1,0 +1,57 @@
+#group {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    text-align: center;
+}
+.group {
+    max-width: 250px;
+}
+h2 {
+    color: black;
+}
+.group img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+.free {
+    font-size: 0.8em;
+    color: black;
+}
+.group i {
+    color: var(--purple);
+    padding-right: 3%;
+    text-align: left;
+}
+.group span {
+    color: var(--purple);
+}
+.description {
+    margin: 5% 5%;
+}
+.pinpoints {
+    text-align: left;
+}
+.join-button {
+    margin-top: 5%;
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    background-color: var(--green);
+    color: white;
+    border-radius: 5px;
+}
+.pending-button {
+    margin-top: 5%;
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    background-color: var(--light-purple);
+    color: white;
+    border-radius: 5px;
+}
+.pending-link {
+    color: var(--purple);
+    margin-top: 5%;
+    font-size: 1.1em;
+}
