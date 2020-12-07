@@ -15,7 +15,7 @@ menu(true, false);
             <p>Total likes: 22</p>
         </div>
         <div class="liked-overview-btn-wrapper">
-            <a href="#">
+            <a href="liked-today.php">
                 See all <i class="fas fa-angle-right"></i>
             </a>
         </div>
@@ -32,7 +32,7 @@ menu(true, false);
             </a>
         </div>
     </article>
-    <h2>Posts liked today</h2>
+    <h2>Posts liked this week</h2>
     <article class="liked-overview-box">
         <div class="liked-overview-box-details">
             <p>#girlstyles</p>
