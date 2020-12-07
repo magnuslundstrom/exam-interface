@@ -19,7 +19,7 @@ if (document.querySelector('.ig-login-flow-wrapper')) {
 
         flowForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            window.location.href = './automations.php';
+            window.location.href = './automation.php';
         });
     })();
 }

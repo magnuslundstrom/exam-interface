@@ -2,6 +2,8 @@
 function groups($hashtag, $group, $joined, $arrayData)
 {
     foreach ($arrayData as $arrayData) {
+        $string = $arrayData['name'];
+        $string = preg_replace("/[\W_]+/u", '', $string);
         ?>
 <div class="hashtag-group-person">
     <?php
@@ -46,7 +48,7 @@ if ($hashtag) {
 } else if ($group && $joined) {
             ?>
 <div class="leave-btn-div btn-div">
-    <button>Leave</button>
+    <a href="<?=strtolower("$string")?>leave.php"><button>Leave</button></a>
 </div>
 </div>
 <?php

@@ -18,4 +18,11 @@ require_once __DIR__ . '/hashtag-group-person.php';
             ]);
         ?>
     </section>
+    <script>
+    $("#openmodal").one("click", showModal);
+    const igLoginBox = document.getElementById('ig-login-flow-wrapper');
+    function showModal() {
+        igLoginBox.classList.toggle('hidden');
+};
+</script>
 </div>

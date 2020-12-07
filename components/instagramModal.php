@@ -1,4 +1,4 @@
-<div class="ig-login-flow-wrapper">
+<div id="ig-login-flow-wrapper" class="ig-login-flow-wrapper hidden">
     <div class="ig-login-flow">
         <div class="close-flow">
             <button class="close-flow-button">
