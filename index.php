@@ -16,7 +16,7 @@ menu(false, true, false);
         <section class="signup-login-box">
             <section class="auth-form">
                 <h1>Signup</h1>
-                <form>
+                <form class="login-form">
                     <input name="email" type="text" placeholder="Email" value="" data-type="email">
                     <input name="password" type="password" placeholder="Password" value="" data-type="string" data-min="2" data-max="20">
                     <a href="landing-page.php"><button type="button" class="signup-button">Sign up</button></a>
@@ -32,7 +32,7 @@ menu(false, true, false);
         <section class="signup-login-box">
             <section class="auth-form">
                 <h1>Login</h1>
-                <form>
+                <form class="login-form">
                     <input name="email" type="text" placeholder="Email" value="" data-type="email">
                     <input name="password" type="password" placeholder="Password" value="" data-type="string" data-min="2" data-max="20">
                     <a href="landing-page.php"><button type="button" class="signup-button">Sign up</button></a>

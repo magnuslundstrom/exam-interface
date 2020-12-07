@@ -16,7 +16,7 @@ function menu($loggedIn = false, $logo = true, $searchBar = false)
         ['name' => '<i class="fas fa-comments"></i> Messages', 'url' => 'messages.php'],
         ['name' => '<i class="fas fa-user-friends"></i> Groups', 'url' => 'groups.php'],
         ['name' => '<i class="fas fa-recycle"></i> Automation', 'url' => 'automation.php'],
-        ['name' => '<i class="fas fa-dollar-sign"></i> Subscription', 'url' => 'subscription.php'],
+        ['name' => '<i class="fas fa-dollar-sign"></i> Subscription', 'url' => 'subscriptions.php'],
         ['name' => '<i class="fas fa-sign-out-alt"></i> Log out', 'url' => 'index.php'],
     ];?>
 

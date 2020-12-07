@@ -3,7 +3,7 @@
 $metaTitle = 'Chat';
 require_once __DIR__ . '/components/head.php';
 require_once __DIR__ . '/components/menu.php';
-menu(true, true);
+menu(true, false, false);
 ?>
 
 <main class="chat-wrapper container" id="chat">
