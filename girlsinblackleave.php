@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/components/head.php';
 require_once __DIR__ . '/components/menu.php';
-menu(true, true, false);
+menu(true, false, false);
 ?>
 
 <main id="group">
