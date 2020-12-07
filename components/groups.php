@@ -19,10 +19,17 @@ if ($hashtag) {
     <img src="<?=$arrayData['img']?>" alt="image of <?=$arrayData['name']?>">
     <?php
 }
-        ?>
+if ($hashtag) {
+    ?>
+
     <article>
-        <p class="result-title"><?=$arrayData['name']?></p>
+        <a href="liked-overview.php"><p class="result-title"><?=$arrayData['name']?></p></a>
         <?php
+        } else {
+            ?>
+        <article>
+        <a href="<?=strtolower("$string")?>.php"><p class="result-title"><?=$arrayData['name']?></p></a>
+        <?php}
 if (!$hashtag) {
             ?>
         <p><?=$arrayData['description']?></p>
