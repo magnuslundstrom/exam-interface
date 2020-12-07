@@ -19,11 +19,4 @@ menu(true, true, true);
     <?php require_once __DIR__ . '/components/explore-people.php';?>
 
 </main>
-<script>
-    $("#openmodal").one("click", showModal);
-    const igLoginBox = document.getElementById('ig-login-flow-wrapper');
-    function showModal() {
-        igLoginBox.classList.toggle('hidden');
-};
-</script>
 <?php require_once __DIR__ . '/components/footer.php';?>

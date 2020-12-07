@@ -41,7 +41,7 @@ if ($hashtag || $group) {
 if ($hashtag) {
             ?>
     <div class="btn-div">
-        <button type="button" id="openmodal">Automate</button>
+        <button type="button" class="openmodal">Automate</button>
     </div>
 </div>
 <?php
