@@ -78,11 +78,4 @@ hashtagGroupPerson(true, false, false, [
         <a class="landing-btn" href="messages.php">Manage<i class="fas fa-angle-right"></i></a>
     </section>
 </main>
-<script>
-    $("#openmodal").one("click", showModal);
-    const igLoginBox = document.getElementById('ig-login-flow-wrapper');
-    function showModal() {
-        igLoginBox.classList.toggle('hidden');
-};
-</script>
 <?php require_once __DIR__ . '/components/footer.php';?>
