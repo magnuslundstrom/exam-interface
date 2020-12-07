@@ -19,7 +19,7 @@
         <form class="ig-login-flow-form">
             <input type="text" placeholder="Instagram username" />
             <input type="password" placeholder="Instagram password" />
-            <a href="automation.php"><button>Log in</button></a>
+            <button>Log in</button>
         </form>
         <a href="#">Privacy policy</a>
     </div>
