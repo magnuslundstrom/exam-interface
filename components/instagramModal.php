@@ -1,4 +1,4 @@
-<div class="ig-login-flow-wrapper">
+<div id="ig-login-flow-wrapper" class="ig-login-flow-wrapper hidden">
     <div class="ig-login-flow">
         <div class="close-flow">
             <button class="close-flow-button">
@@ -19,7 +19,7 @@
         <form class="ig-login-flow-form">
             <input type="text" placeholder="Instagram username" />
             <input type="password" placeholder="Instagram password" />
-            <button>Log in</button>
+            <a href="automation.php"><button>Log in</button></a>
         </form>
         <a href="#">Privacy policy</a>
     </div>

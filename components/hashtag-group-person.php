@@ -41,7 +41,7 @@ if ($hashtag || $group) {
 if ($hashtag) {
             ?>
     <div class="btn-div">
-        <a href="<?=strtolower("$string")?>.php"><button>Automate</button></a>
+        <button type="button" id="openmodal">Automate</button>
     </div>
 </div>
 <?php
@@ -69,3 +69,4 @@ if ($hashtag) {
 }
     }
 }
+?>

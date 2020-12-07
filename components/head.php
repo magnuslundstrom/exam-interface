@@ -16,6 +16,7 @@ $metaTitle = $metaTitle ?? 'iHub';
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Varela+Round&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
 <body>

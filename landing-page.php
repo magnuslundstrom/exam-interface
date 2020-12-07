@@ -2,6 +2,7 @@
 require_once __DIR__ . '/components/head.php';
 require_once __DIR__ . '/components/hashtag-group-person.php';
 require_once __DIR__ . '/components/menu.php';
+require_once __DIR__ . '/components/instagramModal.php';
 menu(true, true, false);
 ?>
 
@@ -33,7 +34,7 @@ hashtagGroupPerson(true, false, false, [
                 </div>
             </a>
             <a href="chat.php">
-                <img src="https://pbs.twimg.com/profile_images/1313275994086666241/ImnByxjW_400x400.jpg"
+                <img src="https://images.unsplash.com/photo-1561709511-cf135c069ed6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
                     alt="image of @staartingsoon">
                 <div>
                     <p>@staartingsoon</p>
@@ -77,5 +78,11 @@ hashtagGroupPerson(true, false, false, [
         <a class="landing-btn" href="messages.php">Manage<i class="fas fa-angle-right"></i></a>
     </section>
 </main>
-
+<script>
+    $("#openmodal").one("click", showModal);
+    const igLoginBox = document.getElementById('ig-login-flow-wrapper');
+    function showModal() {
+        igLoginBox.classList.toggle('hidden');
+};
+</script>
 <?php require_once __DIR__ . '/components/footer.php';?>
