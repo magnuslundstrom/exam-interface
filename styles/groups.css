@@ -1,5 +1,6 @@
 .leave-btn-div {
     background: var(--red)!important;
+    border-radius: 10px;
 }
 
 .leave-btn-div button {

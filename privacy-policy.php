@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/components/liked-box.php';
-$metaTitle = 'Liked today';
+$metaTitle = 'Privacy Policy';
 require_once __DIR__ . '/components/head.php';
 require_once __DIR__ . '/components/menu.php';
 menu(true, false);

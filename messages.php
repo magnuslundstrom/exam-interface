@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/components/messageBox.php';
-$metaTitle = 'Liked today';
+$metaTitle = 'Messages';
 require_once __DIR__ . '/components/head.php';
 require_once __DIR__ . '/components/menu.php';
 menu(true);

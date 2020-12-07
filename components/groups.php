@@ -28,7 +28,7 @@ if ($hashtag) {
         } else {
             ?>
         <article>
-        <a href="<?=strtolower("$string")?>.php"><p class="result-title"><?=$arrayData['name']?></p></a>
+        <a href="chat.php"><p class="result-title"><?=$arrayData['name']?></p></a>
         <?php}
 if (!$hashtag) {
             ?>

@@ -6,7 +6,7 @@ function messageBox($imgsrc, $groupName, $latestMessage, $date)
     <div class="message-box-left">
         <img src="<?=$imgsrc?>">
         <div class="message-box-left-right">
-            <a href="#"><?=$groupName?></a>
+            <a href="chat.php"><?=$groupName?></a>
             <p><?=$latestMessage?></p>
         </div>
     </div>

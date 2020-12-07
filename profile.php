@@ -1,4 +1,5 @@
 <?php
+$metaTitle = 'Profile';
 require_once __DIR__ . '/components/head.php';
 require_once __DIR__ . '/components/hashtag-group-person.php';
 require_once __DIR__ . '/components/menu.php';

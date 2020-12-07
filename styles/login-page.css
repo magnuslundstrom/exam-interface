@@ -33,17 +33,17 @@
 .auth-form h1 {
     padding-bottom: 2%;
 }
-form {
+.login-form {
     display: flex;
     flex-direction: column;
 }
-form a {
+.login-form a {
     color: #777777!important;
     text-decoration: underline;
     font-size: 0.9em;
     padding-top: 0.7%;
 }
-input {
+.login-form input {
     background-color: white;
     color: #AAAAAA!important;
     border: none;

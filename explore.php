@@ -1,4 +1,5 @@
 <?php
+$metaTitle = 'Explore';
 require_once __DIR__ . '/components/head.php';
 require_once __DIR__ . '/components/menu.php';
 
