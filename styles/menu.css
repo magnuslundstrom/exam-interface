@@ -72,3 +72,10 @@ header input {
 header .menu-search {
     margin-right: 5px;
 }
+
+header .menu-active {
+    color: var(--purple);
+}
+header .menu-active i {
+    color: var(--purple);
+}

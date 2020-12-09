@@ -2,8 +2,14 @@
 // Please pass boolean for $loggedIn
 // Please pass boolean for $logo if false, it shows back arrow
 // Please pass boolean for $searchBar if true it shows and hides the magnifying glass
+
+$currentPath = basename($_SERVER['REQUEST_URI']);
+
 function menu($loggedIn = false, $logo = true, $searchBar = false)
 {
+
+    global $currentPath;
+
     $routes = !$loggedIn ?
     [['name' => 'Log in', 'url' => 'index.php'],
         ['name' => 'Sign up', 'url' => 'index.php'],
@@ -47,7 +53,8 @@ if ($logo) {?>
             </div>
             <nav>
                 <?php foreach ($routes as $route) {?>
-                <a href="<?=$route['url']?>"><?=$route['name']?></a>
+                <a href="<?=$route['url']?>"
+                    class="<?=$currentPath === $route['url'] ? 'menu-active' : ''?>"><?=$route['name']?></a>
                 <?php }?>
             </nav>
         </div>
