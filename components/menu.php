@@ -23,7 +23,7 @@ function menu($loggedIn = false, $logo = true, $searchBar = false)
 <header>
     <?php
 if ($logo) {?>
-    <a href="<?=$loggedIn ? '/landing-page.php' : '/'?>" class="logo">iHub</a>
+    <a href="<?=$loggedIn ? 'landing-page.php' : '/'?>" class="logo">iHub</a>
     <?php } else {?>
     <button class="back-arrow"><i class="fas fa-arrow-left"></i></button>
     <?php }
