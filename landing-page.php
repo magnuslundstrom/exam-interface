@@ -4,7 +4,7 @@ require_once __DIR__ . '/components/head.php';
 require_once __DIR__ . '/components/hashtag-group-person.php';
 require_once __DIR__ . '/components/menu.php';
 require_once __DIR__ . '/components/instagramModal.php';
-menu(true, true, false);
+menu(true, true, false, 'landing-page.php');
 ?>
 
 

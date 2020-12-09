@@ -1,3 +1,7 @@
+.profile h1 {
+    padding: 10px 30px;
+}
+
 .profile-image-wrapper {
     display: flex;
     justify-content: center;
