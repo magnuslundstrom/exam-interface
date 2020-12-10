@@ -1,16 +1,18 @@
 .switch-box {
-    width: 80vw;
-    border: 2px solid var(--light-blue);
-    border-radius: 10px;
     margin: 2% 10%;
-    padding: 3%;
+
     text-align: center;
+}
+.switch-box div {
+    border: 2px solid var(--light-blue);
+    padding: 3%;
+    border-radius: 10px;
 }
 
 .switch-button {
     color: blue;
     text-decoration: underline;
-    font-family: 'Open Sans', sans-serif!important;
+    font-family: 'Open Sans', sans-serif !important;
     font-size: 1em;
     margin-left: -2px;
 }
@@ -38,14 +40,14 @@
     flex-direction: column;
 }
 .login-form a {
-    color: #777777!important;
+    color: #777777 !important;
     text-decoration: underline;
     font-size: 0.9em;
     padding-top: 0.7%;
 }
 .login-form input {
     background-color: white;
-    color: #AAAAAA!important;
+    color: #aaaaaa !important;
     border: none;
     margin: 0.5% 0%;
     min-height: 50px;
